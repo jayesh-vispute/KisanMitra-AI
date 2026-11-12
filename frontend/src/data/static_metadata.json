@@ -1,0 +1,80 @@
+{
+    "states": [
+        "Maharashtra",
+        "Gujarat",
+        "Karnataka",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Punjab",
+        "Haryana"
+    ],
+    "districts": {
+        "Maharashtra": ["Pune", "Nashik", "Ahmednagar", "Solapur", "Kolhapur"],
+        "Gujarat": ["Ahmedabad", "Surat", "Rajkot", "Vadodara", "Bhavnagar"],
+        "Karnataka": ["Bangalore", "Mysore", "Hubli", "Belgaum", "Mangalore"],
+        "Uttar Pradesh": ["Agra", "Lucknow", "Kanpur", "Varanasi", "Meerut"],
+        "Madhya Pradesh": ["Bhopal", "Indore", "Ujjain", "Gwalior", "Jabalpur"],
+        "Rajasthan": ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Bikaner"],
+        "Punjab": ["Ludhiana", "Amritsar", "Jalandhar", "Patiala", "Bathinda"],
+        "Haryana": ["Karnal", "Panipat", "Rohtak", "Hisar", "Gurugram"]
+    },
+    "mandis": {
+        "Pune": ["Pune", "Khed", "Junnar", "Shirur", "Baramati"],
+        "Nashik": ["Nashik", "Lasalgaon", "Pimpalgaon", "Malegaon", "Manmad"],
+        "Ahmednagar": ["Ahmednagar", "Rahuri", "Sangamner", "Kopargaon"],
+        "Solapur": ["Solapur", "Pandharpur", "Barshi", "Mangalwedha"],
+        "Kolhapur": ["Kolhapur", "Gadhinglaj", "Vadgaon", "Malkapur"],
+        
+        "Ahmedabad": ["Ahmedabad", "Sanand", "Viramgam", "Dholka", "Bavla"],
+        "Surat": ["Surat", "Bardoli", "Vyara", "Mandvi"],
+        "Rajkot": ["Rajkot", "Gondal", "Jasdan", "Morbi", "Wankaner"],
+        "Vadodara": ["Vadodara", "Bodeli", "Dabhoi", "Karjan"],
+        "Bhavnagar": ["Bhavnagar", "Mahuva", "Talaja", "Palitana"],
+        
+        "Bangalore": ["Bangalore", "Hoskote", "Doddaballapur", "Nelamangala", "Devanahalli"],
+        "Mysore": ["Mysore", "Nanjangud", "Hunsur"],
+        "Hubli": ["Hubli", "Dharwad", "Kundgol"],
+        "Belgaum": ["Belgaum", "Bailhongal", "Gokak"],
+        "Mangalore": ["Mangalore", "Puttur", "Sullia"],
+
+        "Agra": ["Agra", "Fatehabad", "Khairagarh", "Kiraoli", "Bah"],
+        "Lucknow": ["Lucknow", "Malihabad", "Bakshi Ka Talab"],
+        "Kanpur": ["Kanpur", "Bilhaur", "Ghatampur"],
+        "Varanasi": ["Varanasi", "Chandauli", "Mirzapur"],
+        "Meerut": ["Meerut", "Mawana", "Sardhana"],
+
+        "Bhopal": ["Bhopal", "Berasia", "Kolar"],
+        "Indore": ["Indore", "Mhow", "Sanwer"],
+        "Ujjain": ["Ujjain", "Nagda", "Khachrod"],
+        "Gwalior": ["Gwalior", "Dabra", "Bhitarwar"],
+        "Jabalpur": ["Jabalpur", "Sihora", "Patan"],
+
+        "Jaipur": ["Jaipur", "Chomu", "Bassi"],
+        "Jodhpur": ["Jodhpur", "Phalodi", "Osian"],
+        "Udaipur": ["Udaipur", "Fatehnagar", "Salumbar"],
+        "Kota": ["Kota", "Ramganj Mandi", "Itawa"],
+        "Bikaner": ["Bikaner", "Nokha", "Lunkaransar"],
+
+        "Ludhiana": ["Ludhiana", "Khanna", "Jagraon"],
+        "Amritsar": ["Amritsar", "Tarn Taran", "Ajnala"],
+        "Jalandhar": ["Jalandhar", "Nakodar", "Phillaur"],
+        "Patiala": ["Patiala", "Nabha", "Rajpura"],
+        "Bathinda": ["Bathinda", "Rampura Phul", "Mansa"],
+
+        "Karnal": ["Karnal", "Gharaunda", "Indri"],
+        "Panipat": ["Panipat", "Samalkha", "Israna"],
+        "Rohtak": ["Rohtak", "Meham", "Kalanaur"],
+        "Hisar": ["Hisar", "Hansi", "Barwala"],
+        "Gurugram": ["Gurugram", "Pataudi", "Sohna"]
+    },
+    "commodities": {
+        "Pune": ["Onion", "Potato", "Tomato", "Garlic", "Ginger"],
+        "Nashik": ["Onion", "Tomato", "Pomegranate", "Grapes", "Garlic"],
+        "Lasalgaon": ["Onion", "Garlic", "Ginger", "Potato"],
+        "Ahmedabad": ["Wheat", "Rice", "Cotton", "Groundnut", "Onion"],
+        "Bangalore": ["Tomato", "Onion", "Potato", "Carrot", "Cabbage"],
+        "Agra": ["Potato", "Wheat", "Mustard", "Onion", "Garlic"]
+    },
+    "default_commodities": ["Onion", "Potato", "Tomato", "Garlic", "Ginger", "Wheat", "Rice", "Cotton", "Groundnut", "Mustard", "Carrot", "Cabbage", "Pomegranate", "Grapes"]
+}

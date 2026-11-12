@@ -1,0 +1,18 @@
+__pycache__/
+.env
+node_modules/
+*.pkl
+*.h5
+.DS_Store
+dist/
+build/
+venv/
+nb_outputs.json
+*.ipynb
+mlruns/
+
+# Data and Logs
+backend/data/processed/
+backend/logs/
+backend/venv311/
+venv311/

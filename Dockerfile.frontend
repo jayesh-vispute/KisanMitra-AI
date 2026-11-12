@@ -1,0 +1,32 @@
+# Base image for Node 20 LTS
+FROM node:20-alpine AS build
+
+# Set the working directory
+WORKDIR /app
+
+# Copy package configurations
+COPY frontend/package.json frontend/package-lock.json* ./
+
+# Install dependencies
+RUN npm install
+
+# Copy frontend source code
+COPY frontend/ /app/
+
+# Build the frontend using Vite
+RUN npm run build
+
+# Use Nginx for serving static files
+FROM nginx:alpine
+
+# Copy custom nginx configuration for SPA routing
+COPY frontend/nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy built assets from build stage to nginx serving directory
+COPY --from=build /app/dist /usr/share/nginx/html
+
+# Expose HTTP port
+EXPOSE 80
+
+# Run nginx in foreground
+CMD ["nginx", "-g", "daemon off;"]

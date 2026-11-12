@@ -1,0 +1,35 @@
+{
+    "states": [
+        "Maharashtra",
+        "Gujarat",
+        "Karnataka",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Punjab",
+        "Haryana"
+    ],
+    "districts": {
+        "Maharashtra": ["Pune", "Nashik", "Ahmednagar", "Solapur", "Kolhapur"],
+        "Gujarat": ["Ahmedabad", "Surat", "Rajkot", "Vadodara", "Bhavnagar"],
+        "Karnataka": ["Bangalore", "Mysore", "Hubli", "Belgaum", "Mangalore"],
+        "Uttar Pradesh": ["Agra", "Lucknow", "Kanpur", "Varanasi", "Meerut"]
+    },
+    "mandis": {
+        "Pune": ["Pune", "Khed", "Junnar", "Shirur", "Baramati"],
+        "Rajkot": [],
+        "Nashik": ["Nashik", "Lasalgaon", "Pimpalgaon", "Malegaon", "Manmad"],
+        "Ahmedabad": ["Ahmedabad", "Sanand", "Viramgam", "Dholka", "Bavla"],
+        "Bangalore": ["Bangalore", "Hoskote", "Doddaballapur", "Nelamangala", "Devanahalli"],
+        "Agra": ["Agra", "Fatehabad", "Khairagarh", "Kiraoli", "Bah"]
+    },
+    "commodities": {
+        "Pune": ["Onion", "Potato", "Tomato", "Garlic", "Ginger"],
+        "Nashik": ["Onion", "Tomato", "Pomegranate", "Grapes", "Garlic"],
+        "Lasalgaon": ["Onion", "Garlic", "Ginger", "Potato"],
+        "Ahmedabad": ["Wheat", "Rice", "Cotton", "Groundnut", "Onion"],
+        "Bangalore": ["Tomato", "Onion", "Potato", "Carrot", "Cabbage"],
+        "Agra": ["Potato", "Wheat", "Mustard", "Onion", "Garlic"]
+    },
+    "default_commodities": ["Onion", "Potato", "Tomato", "Garlic", "Ginger", "Wheat", "Rice", "Cotton", "Groundnut", "Mustard", "Carrot", "Cabbage", "Pomegranate", "Grapes"]
+}
