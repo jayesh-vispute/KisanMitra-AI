@@ -219,8 +219,8 @@ This repository includes a native `render.yaml` configuration. Connect your GitH
 ---
 
 ## 👨‍💻 Author
-**Bhushan** 
-- GitHub: [@bhushan806](https://github.com/bhushan806)
+**Jayesh** 
+- GitHub: (https://github.com/jayesh-vispute)
 
 ---
 
